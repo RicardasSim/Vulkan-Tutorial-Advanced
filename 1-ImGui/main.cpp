@@ -289,7 +289,7 @@ private:
 
     void mainLoop() {
         while (!glfwWindowShouldClose(window)) {
-            glfwPollEvents();            
+            glfwPollEvents();
             drawFrame();
         }
 
